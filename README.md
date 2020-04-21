@@ -6,4 +6,12 @@
  g++ -pthread server.cpp -ldwf -lssl -lcrypto -o server.o
  
  
- \[\sqrt {{a^2} + {b^2}} \]
+```bash
+g++ -pthread client.cpp
+
+```
+
+$$
+e^{i\theta} = \cos\theta + i\sin\theta
+\sqrt {{a^2} + {b^2}}
+$$
