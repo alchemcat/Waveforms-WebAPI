@@ -4,7 +4,7 @@ Waveforms WebAPI is a REST API for Digilent Waveforms software. This API enables
 
 Like other REST APIs, this API exchanges a JSON object that contains which native API call with parameters should be invoked in a server and its response to a client. This repository presents two libraries for such API written in C++11. One is for a server and the other for a client. A example of the JSON object generated in a client is as follows in the case of one of native APIs, *FDwfGetVersion(char szVersion[32])* defined in `dwf.h`:
 
-```json
+```cpp
 {
     {
         "FDwfGetVersion",
