@@ -4,7 +4,7 @@
    |   \ \ \    / / | __|
    | |) | \ \/\/ /  | _|    a Waveforms-WebAPI client
    |___/   \_/\_/___|_|_    version 0.1.0
-  |"""""| |"""""""""""""|   https://github.com/
+  |"""""| |"""""""""""""|   https://github.com/alchemcat/Waveforms-WebAPI
  _|     |_|   Web API   |
  "`-0-0-'"`-0-0-----0-0-'
 
