@@ -6,14 +6,14 @@ Like other REST APIs, this API exchanges a JSON object that contains which nativ
 
 ```json
 {
-	{
+    {
         "FDwfGetVersion",
         {
             {{"(return)", 0}},
             {{"char", (std::vector<char>(&szVersion[0], &szVersion[32])) }},
         }
     },
-}	
+}
 ```
 Importantly, in your client program only what you have to do is: (1) include `dwf-webapi-client.hpp` (that is the library on the client-side); and (2) call a API,  `Dwf::WebAPI::Client::SetServer(hostname, port, "user-name", "password");`. If you want to use HTTPS rather than HTTP, define `CPPHTTPLIB_OPENSSL_SUPPORT` as a preprocessor directive prior to including `dwf-webapi-client.hpp`, providing the sever is already set up. That's it. You don't need to fix your original code at all, except these two things.
 
